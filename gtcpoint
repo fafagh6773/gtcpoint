@@ -25,11 +25,11 @@ git clone https://github.com/celestiaorg/celestia-app.git
 cd celestia-app
 git checkout v0.6.0
 make install
-git clone https://github.com/celestiaorg/networks
 
 -------------------------------------------------
 celestia-appd version
 make install
+git clone https://github.com/celestiaorg/networks
 
 -------------------------------------------
 git clone https://github.com/celestiaorg/networks
