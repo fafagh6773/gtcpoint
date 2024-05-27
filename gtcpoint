@@ -17,7 +17,6 @@ source $HOME/.bash_profile
 git clone https://github.com/celestiaorg/celestia-app.git
 
 --------------------------------------
-rm -rf celestia-app
 git clone https://github.com/celestiaorg/celestia-app.git
 make install
 
