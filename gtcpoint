@@ -89,6 +89,7 @@ s/^max-connections *=.*/max-connections = $max_connections/" $HOME/.celestia-app
 pruning_keep_recent="100" 
 pruning_interval="10"
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
+git clone https://github.com/celestiaorg/celestia-app.git
 
 ------------------------------------------------------
 
