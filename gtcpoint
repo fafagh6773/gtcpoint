@@ -35,7 +35,6 @@ git clone https://github.com/celestiaorg/networks.git
 CELESTIA_NODENAME="MY_NODE" 
 CELESTIA_WALLET="MY_WALLET"
 CELESTIA_CHAIN="mamaki"
-git clone https://github.com/celestiaorg/networks.git
 
 اطلاعات  داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
 به عنوان مثال :
