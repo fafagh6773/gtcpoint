@@ -109,7 +109,6 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
   Description=celestia-appd Cosmos daemon
   After=network-online.target
 [Service]
-  User=$USER
   ExecStart=$(which celestia-appd) start
   RestartSec=3
   LimitNOFILE=65535
