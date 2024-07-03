@@ -127,7 +127,6 @@ sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bs
 --------------------------------------------------------------
 
 cd $HOME
-rm -rf ~/.celestia-app/data
 mkdir -p ~/.celestia-app/data
 SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia/ | \
     egrep -o ">mamaki.*tar" | tr -d ">")
