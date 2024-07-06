@@ -18,6 +18,7 @@ sudo apt update && sudo apt upgrade -y
 --------------------------------------
 git clone https://github.com/celestiaorg/celestia-app.git
 make install
+sudo apt update && sudo apt upgrade -y
 
 -------------------------------------------------
 make install
