@@ -12,7 +12,6 @@ sudo apt update && sudo apt upgrade -y
 
 ---------------------------------------------------
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
-sudo apt update && sudo apt upgrade -y
 
 --------------------------------------
 git clone https://github.com/celestiaorg/celestia-app.git
