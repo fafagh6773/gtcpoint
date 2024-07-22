@@ -124,7 +124,6 @@ sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bs
 cd $HOME
 mkdir -p ~/.celestia-app/data
 SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia/ | \
-    egrep -o ">mamaki.*tar" | tr -d ">")
 
 ------------------------------------------------------------------
 منتظر بمانید تا گره شما اکثر بلوک ها را از زنجیره بلوکی Celestia دانلود کند
