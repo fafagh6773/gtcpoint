@@ -22,6 +22,7 @@ git clone https://github.com/celestiaorg/celestia-app.git
 
 -------------------------------------------
 git clone https://github.com/celestiaorg/networks
+make install
 
 -------------------------------
 git clone https://github.com/celestiaorg/networks.git
