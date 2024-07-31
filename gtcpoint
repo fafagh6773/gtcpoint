@@ -61,7 +61,6 @@ sed -i 's/timeout-commit = ".*/timeout-commit = "25s"/g' $HOME/.celestia-app/con
 sed -i 's/peer-gossip-sleep-duration *=.*/peer-gossip-sleep-duration = "2ms"/g' $HOME/.celestia-app/config/config.toml
 
 -----------------------------------------------------------------
-max_connections=50
 echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $HOME/.bash_profile
 sed -i -e "s/^use-legacy *=.*/use-legacy = false/;\
 
