@@ -30,7 +30,6 @@ git clone https://github.com/celestiaorg/networks.git
 CELESTIA_WALLET="MY_WALLET"
 
 اطلاعات  داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
-CELESTIA_WALLET="amir8372"
 
 ----------------------------------------------------------
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash_profile
