@@ -84,7 +84,6 @@ celestia-appd config chain-id $CELESTIA_CHAIN
 -------------------------------------------------------
 tee $HOME/celestia-appd.service > /dev/null <<EOF
   After=network-online.target
-  ExecStart=$(which celestia-appd) start
   RestartSec=3
   LimitNOFILE=65535
 [Install]
