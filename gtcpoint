@@ -64,7 +64,6 @@ s/^max-connections *=.*/max-connections = $max_connections/" $HOME/.celestia-app
 
 ------------------------------------------------
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
-git clone https://github.com/celestiaorg/celestia-app.git
 
 ------------------------------------------------------
 
