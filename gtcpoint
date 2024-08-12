@@ -72,9 +72,9 @@ s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $HOME/.celes
 --------------------------------------------
 
 sed -i 's/snapshot-interval *=.*/snapshot-interval = 0/' $HOME/.celestia-app/config/app.toml
-
 ---------------------------------------------------
 celestia-appd tendermint unsafe-reset-all --home $HOME/.celestia-app
+  LimitNOFILE=65535
 
 ---------------------------------------------------
 
@@ -84,7 +84,7 @@ celestia-appd config chain-id $CELESTIA_CHAIN
 tee $HOME/celestia-appd.service > /dev/null <<EOF
   After=network-online.target
   LimitNOFILE=65535
-[Install]
+
 EOF
 
 ---------------------------------------------------
