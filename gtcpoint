@@ -83,8 +83,6 @@ celestia-appd config chain-id $CELESTIA_CHAIN
 tee $HOME/celestia-appd.service > /dev/null <<EOF
   After=network-online.target
 
-EOF
-
 ---------------------------------------------------
 sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 
