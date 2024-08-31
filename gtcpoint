@@ -81,6 +81,7 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
 
 ---------------------------------------------------
 sudo mv $HOME/celestia-appd.service /etc/systemd/system/
+sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 
 ----------------------------------------------------
 sudo systemctl enable celestia-appd
