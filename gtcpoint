@@ -104,6 +104,7 @@ SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia/ | \
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 
 -------------------------------------------------
+باید منتظر بمانید تا گره Validator شما همه بلوک‌ها را از زنجیره بلوکی سلستیا دانلود کند
 
 ---------------------------------
 
