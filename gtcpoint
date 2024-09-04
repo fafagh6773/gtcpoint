@@ -92,10 +92,10 @@ s/^max-num-inbound-peers *=.*/max-num-inbound-peers = $max_num_inbound_peers/;\
 
 sudo systemctl stop celestia-appd
 sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu -y
+mkdir -p ~/.celestia-app/data
 
 --------------------------------------------------------------
 
-mkdir -p ~/.celestia-app/data
 SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia/ | \
 
 ------------------------------------------------------------------
